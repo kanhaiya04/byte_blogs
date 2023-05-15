@@ -1,0 +1,30 @@
+baseURL: ""
+languageCode: en-us
+title: Tech Blogs
+theme: PaperMod
+params:
+  homeInfoParams:
+    Title: "Hello Everyone"
+    content: Welcome to my technical blogging site, where you can get updates of latest tech and stuff.
+  cover:
+    linkFullImage: true
+  showBreadCrumbs: true
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
