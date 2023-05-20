@@ -21,16 +21,10 @@ git clone https://github.com/kanhaiya04/byte_blogs.git
 cd byte-blogs
 ```
 
-Use the package manager to install dependencies.
-
-```bash
-npm install
-```
-
 ## Run on local server
 
 To start the Hugo server
 ```bash
-hugo server
+hugo serve
 ```
 
